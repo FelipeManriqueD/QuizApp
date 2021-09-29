@@ -1,0 +1,32 @@
+.form {
+    width: 50%;
+    margin: 0 auto;
+
+    &__field {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 15px 0;
+
+        &--small {
+            display: flex;
+            flex-direction: row;
+            margin: 15px 0;
+            justify-content: space-evenly;
+        }
+    }
+
+    &__label {
+        text-align: left;
+        flex: 1;
+    }
+
+    &__select,
+    &__input,
+    &__textArea {
+        flex: 1;
+        padding: 5px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+}

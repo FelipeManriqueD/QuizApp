@@ -1,0 +1,10 @@
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@import './Header/Header.scss';
+@import './Admin/Question/Question.scss';
+@import './shared/Form.scss';
+@import './Guest/Answer.scss';
